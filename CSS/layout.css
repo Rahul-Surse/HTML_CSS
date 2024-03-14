@@ -1,0 +1,71 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    width: 80%;
+    min-height: 100px;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+.header
+{
+    width: 100%;
+    height: 60px;
+    background: lightgrey;
+}
+.header h2{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.menu
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(193,129,46);
+    margin-top: 10px;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu a:hover
+{
+    background-color:rgb(144, 41, 195);
+}
+img
+{
+    margin-top: 20px;
+    width:100%;
+    height:auto;  
+   
+}
+.con
+{ 
+     width: 100%;
+     height: auto;
+
+}
+.con p
+{
+    padding: 10px;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+}
+.con p::first-letter
+{
+    font-size: 50px;
+    color: brown;
+    margin-top: 10px;
+}
+.footer
+{
+   width: 100%;
+   height: auto;
+   padding: 10px;
+   background-color: red;
+}
